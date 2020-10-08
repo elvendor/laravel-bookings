@@ -44,7 +44,7 @@
         "illuminate/console": "^8.0.0",
         "illuminate/database": "^8.0.0",
         "illuminate/support": "^8.0.0",
-        "rinvex/laravel-support": "^4.0.0",
+        "rinvex/laravel-support": "dev-master",
         "spatie/eloquent-sortable": "^3.9.0",
         "spatie/laravel-schemaless-attributes": "^1.8.0",
         "spatie/laravel-sluggable": "^2.5.0",
@@ -76,6 +76,12 @@
         "preferred-install": "dist",
         "optimize-autoloader": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/elvendor/laravel-support"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
